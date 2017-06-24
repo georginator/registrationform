@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+	<p>Do you prefer cats or dogs?</p>
+
+	<form>
+		<label for="dogs">Dogs: </label>
+		<input name="petChoice" id="dogs" type="radio"
+		value="DOGS">
+
+		<label for="cats">Cats: </label>
+		<input name="petChoice" id="cats" type="radio"
+		value="CATS">
+
+		<p>What's your current mood?</p>
+
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+		<textarea name="paragraph" rows="10"
+		cols="10"></textarea>
+
+		<button>Go!</button>
+	</form>
+
+
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		<label for="firstName">First Name: </label>
+		<input type="text" name="firstName" placeholder="John" required="">
+
+		<label for="lastName">Last Name: </label>
+		<input type="text" name="lastName" placeholder="Smith"
+		required>
+
+	</form>
+
+	<form>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male">
+
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="gender" value="female">
+
+		<label for="other">Other</label>
+		<input id="other" type="radio" name="gender" value="other">
+	</form>
+
+	<form>
+		<label>Email: </label>
+		<input type="email" name="email" placeholder="your email" required>
+
+		<label>Password: </label>
+		<input type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+	</form>
+
+	<form>
+		<label>Birthday: </label>
+		<select name="month">
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>August</option>
+			<option>September</option>
+			<option>October</option>
+			<option>November</option>
+			<option>December</option>
+		</select>
+
+		<select>
+			<option>Day</option>
+			<option>1</option>
+			<option>15</option>
+			<option>30</option>
+		</select>
+
+		<select>
+			<option>Year</option>
+			<option>2017</option>
+			<option>2016</option>
+			<option>2015</option>
+			<option>2014</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+		</select>
+	</form>
+
+	<form>
+		<label>I agree to the terms and conditions</label>
+		<input type="checkbox" name="">
+	</form>
+
+	<form>
+		<button type="submit">Submit</button>
+	</form>
+
+
+</body>
+</html>
